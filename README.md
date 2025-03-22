@@ -1,5 +1,5 @@
 # StudyHub
-Plateforme web d’annonces et de messagerie entre étudiants – 2024.
+Plateforme web d’annonces et de messagerie entre étudiants – Projet Développement Web (2024).
 
 Projet réalisé en binôme dans le cadre du cours *Technologies du Web* en L2 Informatique.
 

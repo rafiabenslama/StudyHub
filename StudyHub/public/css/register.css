@@ -1,0 +1,89 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, blue, pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.form-title {
+    background: linear-gradient(to right, blue, violet);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent; 
+    margin: 0 0 20px 0;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    -webkit-background-clip: text;
+    display: inline;
+}
+
+.form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(to right, blue, violet);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    appearance: none; 
+}
+
+.submit-btn:hover {
+    background: linear-gradient(to right, #3333ff, #ee82ee); 
+}
+
+.redirect-text {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.redirect-text a {
+    background: linear-gradient(to right, blue, purple);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent; 
+    text-decoration: none;
+}
+
+.redirect-text a:hover {
+    text-decoration: underline;
+}
